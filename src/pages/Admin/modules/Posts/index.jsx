@@ -44,7 +44,7 @@ export function Posts() {
     }, [])
 
     return <div>
-        <h1>Posts...</h1>
+        <h1>Lista de Posts</h1>
         <Table rowKey='id' dataSource={posts} columns={columns} loading={loading} />
 
     </div>
